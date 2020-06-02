@@ -7,7 +7,7 @@
 		"uuidString": "1B950A3E-E382-4118-963D-EC8F4EBFD7DC"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/deploy/css/styles.css": {
 		"aP": 1,
@@ -52,37 +52,48 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/ferriswheel2.png": {
-		"ft": 32768,
-		"iS": 190917,
+	"/deploy/img/ferriswheel.jpg": {
+		"ft": 16384,
+		"iS": 332761,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/ferriswheel2.png",
+		"oAP": "/deploy/img/ferriswheel.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/ferrsiwheel.png": {
-		"ft": 32768,
-		"iS": 287054,
+	"/deploy/img/ferriswheel2.jpg": {
+		"ft": 16384,
+		"iS": 838360,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/ferrsiwheel.png",
+		"oAP": "/deploy/img/ferriswheel2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/food.png": {
-		"ft": 32768,
-		"iS": 238723,
+	"/deploy/img/food.jpg": {
+		"ft": 16384,
+		"iS": 559211,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/food.png",
+		"oAP": "/deploy/img/food.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/food2.jpg": {
+		"ft": 16384,
+		"iS": 461157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/food2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/headphones.png": {
@@ -580,6 +591,25 @@
 		"oA": 1,
 		"oAP": "/dev/section-9.html",
 		"oF": 1
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -1131,6 +1161,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1543,6 +1577,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1658,6 +1696,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -1802,6 +1844,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,

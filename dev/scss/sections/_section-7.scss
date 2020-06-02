@@ -1,0 +1,39 @@
+/* =============
+    Section 7
+============= */
+#section-7 {
+    display: grid;
+    grid-template-columns: 20% auto;
+    margin-top: 40px;
+    padding-bottom: 200px;
+    position: relative;
+
+    >h1 {
+        color: black;
+        font-size: 3em;
+
+    }
+
+    #section-7-text {
+        background-color: $pink;
+        color: white;
+        font-weight: 100;
+
+        margin-top: 40px;
+        padding: 20px 30px 150px;
+        padding-bottom: 150px;
+
+        >p{
+            text-align: left;
+            padding-bottom: 10px;
+        }
+    }
+
+    img {
+        bottom: 30px;
+         margin-left: 160px;
+        margin-right: 20%;
+        position: absolute;
+        width: 300px;
+    }
+}

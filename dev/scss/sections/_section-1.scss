@@ -1,3 +1,30 @@
 /* =============
     Section 1
 ============= */
+#section-1{
+    background-image: url('../img/ferriswheel.jpg');
+    background-color: black;
+    background-size: 100%;
+    height: 40vh;
+    background-position: 0px 120px;
+    background-repeat: no-repeat;
+    color: white;
+
+    >h1{
+        font-size: 3.5em;
+        color: $pink;
+        padding-top: 40px;
+    }
+    >h2{
+        font-family: 'Playfair Display', serif;
+        padding-top: 20;
+        margin-top: -20px;
+    }
+
+    >h3{
+        font-weight: 100;
+        padding-top: 15px;
+        font-size: .95em;
+    }
+
+}

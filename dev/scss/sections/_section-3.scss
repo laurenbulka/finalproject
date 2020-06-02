@@ -1,3 +1,32 @@
 /* =============
     Section 3
 ============= */
+#section-3{
+ border-top: solid;
+    border-color: $pink;
+    border-width: 10px;
+ border-bottom: solid;
+    border-color: $pink;
+    border-width: 10px;
+    
+    #section-3-img{
+        background-image: url('../img/ferriswheel2.jpg');
+        background-size: cover;
+        height: 40vh;
+        color: white;
+    }
+
+    #section-3-text{
+        padding: 30px;
+        .pinktext{
+            font-family: 'Playfair Display', serif;
+            color: $pink;
+            font-weight: 900;
+            font-size: 2em;
+            padding: 0px;
+            margin: 0px;
+            line-height: 1em;
+        }
+    }
+
+}

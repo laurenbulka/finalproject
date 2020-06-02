@@ -1,0 +1,128 @@
+/* =============
+    Section 9
+============= */
+#section-9 {
+    padding-top: 30px;
+
+    #section-9-content {
+        display: grid;
+        gap: 20px;
+        grid-template-areas: "section-9-1 section-9-2 section-9-3 section-9-4";
+        grid-template-columns: 4 (1fr);
+        padding-bottom: 80px;
+        padding-top: 20px;
+
+        #section-9-1 {
+            background-color: $pink;
+            background-image: url(../img/train.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+            height: 90px;
+            padding: 30px 20px;
+
+            >h4 {
+                color: white;
+                font-size: .8em;
+                margin-top: 90px;
+            }
+
+            #section-9-1-2 {
+                font-weight: 100;
+                margin-top: 20px;
+
+                >h6 {
+                    font-weight: 100;
+                    font-size: .8em;
+                    text-align: center;
+                }
+            }
+        }
+
+        #section-9-2 {
+            margin-top: 80px;
+            background-color: $pink;
+            background-image: url(../img/plane.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+            height: 90px;
+            padding: 30px 20px;
+
+            >h4 {
+                color: white;
+                font-size: .8em;
+                margin-top: 130px;
+            }
+
+            #section-9-2-2 {
+                font-weight: 100;
+                margin-top: 0px;
+
+                >h6 {
+                    font-weight: 100;
+                    font-size: .8em;
+                    text-align: center;
+                    margin-top: -90px;
+                }
+            }
+        }
+    }
+
+  
+    #section-9-3 {
+        background-color: $pink;
+        background-image: url(../img/car.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        height: 90px;
+        padding: 30px 30px;
+
+        >h4 {
+            color: white;
+            font-size: .8em;
+            margin-top: 90px;
+        }
+
+        #section-9-3-2 {
+            font-weight: 100;
+            margin-top: 20px;
+
+            >h6 {
+                font-weight: 100;
+                text-align: center;
+              
+            }
+        }
+    }
+
+    #section-9-4 {
+        margin-top: 80px;
+        background-color: $pink;
+        background-image: url(../img/bus.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        height: 90px;
+        padding: 30px 20px;
+
+        >h4 {
+            color: white;
+            font-size: .8em;
+            margin-top: 130px;
+        }
+
+        #section-9-4-2 {
+            font-weight: 100;
+            margin-top: 0px;
+
+            >h6 {
+                font-weight: 100;
+                font-size: .8em;
+                text-align: center;
+                margin-top: -90px;
+            }
+        }
+    }
+}

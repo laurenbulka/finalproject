@@ -1,0 +1,34 @@
+/* =============
+    Section 8
+============= */
+#section-8{
+
+background-image: url(../img/ny.png);
+background-position: center;
+background-repeat: no-repeat;
+padding: 30px;
+color: white;
+
+>h1{
+    font-size: 2.5em;
+    text-align: left;
+}
+
+    #section-8-text{
+        padding: 20px;
+        background-color: $pink;
+        line-height: 1.5em;
+        font-weight: 100;
+        
+       >p{
+           text-align: left;
+       }
+       >h5{
+
+           text-align: left;
+           font-weight: 600;
+           font-size: 1em;
+       }
+
+    }
+}
