@@ -12,16 +12,17 @@
   
 
     @include md {
-        padding: 250px 20px;
-        background-size: 70%;
+        padding: 100px 20px;
+        background-size: 60%;
     }
 
     p {
         font-weight: 100;
         padding: 10px;
+
         @include md{
-            font-size: 1.6em;
-            padding: 0px 20px;
+            font-size: 1.75em;
+            padding: 0px 24px;
           }
     }
 }

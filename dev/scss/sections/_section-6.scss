@@ -7,7 +7,8 @@
     margin-top: 40px;
 
     @include md {
-        margin-top: 0px;
+        margin-top: 30px;
+        grid-template-columns: 50% auto;
     }
 
     #section-6-h {
@@ -16,8 +17,8 @@
         margin-top: 20px;
 
         @include md {
-            font-size: 2.8em;
-            margin-top: 20px;
+            font-size: 4em;
+            margin-top: -20px;
         }
     }
 
@@ -31,14 +32,21 @@
 
         #p1 {
             padding-bottom: 10px;
+            @include md {
+                padding-bottom: 20px;
+            }
         }
 
         #p2 {
             padding-bottom: 10px;
+            @include md {
+                padding-bottom: 20px;
+            }
         }
 
         @include md {
             font-size: 1.6em;
+            padding: 40px;
         }
     }
 }
@@ -54,7 +62,7 @@
 
     @include md {
         background-size: 100%;
-        margin-top: -340px;
-        padding-bottom: 80px;
+        margin-top: -440px;
+        padding-bottom: 230px;
     }
 }

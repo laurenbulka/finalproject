@@ -9,11 +9,18 @@
     position: relative;
 
     @include md {
-        grid-template-columns: 25% auto;
-        padding-bottom: 400px;
+        grid-template-columns: 20% auto;
+        padding-bottom: 600px;
     }
 
     aside{
+            
+        @include md {
+            font-size: 2em;
+            padding-top: 60px;
+            padding-left: 10px;
+        }
+        
         section{
             h1 {
                 color: black;
@@ -26,6 +33,9 @@
                 padding-top: 70px;
                 padding-left: 10px;
                 
+                @include md {
+                    font-size: 4.5em;  
+                }
             }
         }
     }
@@ -39,14 +49,20 @@
         padding: 20px 30px 130px;
         padding-bottom: 130px;
 
+
         >p {
             padding-bottom: 10px;
             text-align: left;
+            @include md {
+                padding-bottom: 30px;
+                
+            }
         }
 
         @include md {
-            font-size: 1.6em;
-            padding: 20px 40px 220px 50px;
+            font-size: 2.2em;
+            padding: 40px 60px 430px 50px;
+
         }
     }
 
@@ -57,9 +73,9 @@
         width: 250px;
 
         @include md {
-            bottom: 140px;
-            margin-left: 300px;
-            width: 450px;
+            bottom: 260px;
+            margin-left: 250px;
+            width: 650px;
         }
     }
 }

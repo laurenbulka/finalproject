@@ -10,7 +10,7 @@
     padding: 30px;
 
     @include md {
-        height: 65vh;
+        height: 75vh;
     }
 
     >h1 {
@@ -19,7 +19,7 @@
         text-align: center;
 
         @include md {
-            font-size: 4em;
+            font-size: 5em;
         }
     }
 
@@ -33,6 +33,9 @@
         >p {
             padding-bottom: 10px;
             text-align: left;
+            @include md {
+               padding-bottom: 30px;
+            }
         }
 
         >h5 {
@@ -42,8 +45,9 @@
         }
 
         @include md {
-            font-size: 1.45em;
-            padding: 20px 50px;
+            font-size: 1.7em;
+            padding: 40px 50px;
+            margin: 20px;
         }
     }
 }

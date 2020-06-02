@@ -21,6 +21,11 @@ footer {
                 color: white;
             }
 
+            @include md {
+                font-size: 2em;
+                padding-right: 10px;
+            }
+
             @include lg {
                 padding: 0px;
             }
@@ -51,6 +56,15 @@ footer {
             }
         }
 
+        @include md {
+            align-items: center;
+            display: flex;
+            font-size: 1em;
+            grid-area: footer;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
         @include lg {
             align-items: center;
             display: flex;
