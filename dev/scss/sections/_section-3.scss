@@ -1,32 +1,60 @@
 /* =============
     Section 3
 ============= */
-#section-3{
- border-top: solid;
+#section-3 {
+border-top: solid;
     border-color: $pink;
-    border-width: 10px;
+    border-width: 15px;
  border-bottom: solid;
     border-color: $pink;
-    border-width: 10px;
-    
-    #section-3-img{
-        background-image: url('../img/ferriswheel2.jpg');
-        background-size: cover;
-        height: 40vh;
-        color: white;
-    }
+    border-width: 15px;
 
-    #section-3-text{
-        padding: 30px;
-        .pinktext{
-            font-family: 'Playfair Display', serif;
-            color: $pink;
-            font-weight: 900;
-            font-size: 2em;
-            padding: 0px;
-            margin: 0px;
-            line-height: 1em;
+    #section-3-content {
+        padding-top: 40px;
+        @include md{
+            display: grid;
+            grid-template-areas: "section-3-img section-3-right";
+            grid-template-columns: 60% auto;
+            padding: 40px 20px;
         }
     }
 
-}
+    #section-3-img {
+        background-image: url('../img/ferriswheel2.jpg');
+        background-position: center;
+        background-size: 200%;
+        clip-path: circle(180px at center);
+        padding: 30px 30px 0px 30px;
+        color: white;
+        height: 40vh;
+        @include md{
+            clip-path: circle(205px at center);
+        }
+    }
+#section-3-right{
+    img{
+        width: 35px;
+    }
+    #section-3-text {
+        font-size: 1.15em;
+        line-height: 2em;
+        padding: 0px 20px 0px 25px;
+        @include md{
+           font-size: 1.2em;
+           padding: 50px 5px 5px 5px;
+        }
+    }
+
+    #qtop{
+        margin: 20px 0px 10px 10px;
+    }
+
+    #qbottom{
+        margin: 20px 30px 20px 360px;
+    }
+     
+    }
+
+    }
+
+    

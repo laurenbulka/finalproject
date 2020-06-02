@@ -2,13 +2,39 @@
     Section 4
 ============= */
 #section-4{
-background-image: url(../img/band.png);
 height: 40vh;
-background-size: cover;
 color: white;
-font-size: 2em;
+font-size: 1.8em;
 
->h1{
-    padding-top:278px;
+.background {
+    background-image: url(../img/band.png);
+    position: relative;
+    background-size: cover;
+    height: 40vh;
+    @include md{
+        height: 50vh;
+
+      }
+}
+
+.layer {
+    background-color: rgba(241, 96, 122, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    h1{
+    margin-bottom: -15px;
+    
+    padding: 0px;
+    }
+    
 }
 }

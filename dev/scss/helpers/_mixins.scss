@@ -102,11 +102,6 @@ html {
         @content;
     }
 }
-//Usage
-// @include sm{
-//     grid-template-columns: 100%;
-// }
-
 
 // Medium devices
 @mixin md {
@@ -114,10 +109,6 @@ html {
         @content;
     }
 }
-//Usage
-// @include md{
-//     grid-template-columns: 20% 80%;
-// }
 
 
 // Large devices
@@ -126,11 +117,6 @@ html {
         @content;
     }
 }
-//Usage
-// @include lg{
-//     grid-template-columns: repeat(3, 1fr);
-// }
-
 
 // Extra large devices
 @mixin xl {
@@ -138,7 +124,3 @@ html {
         @content;
     }
 }
-//Usage
-// @include xl{
-//     grid-template-columns: repeat(4, 1fr);
-// }

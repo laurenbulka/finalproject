@@ -2,127 +2,160 @@
     Section 9
 ============= */
 #section-9 {
-    padding-top: 30px;
-
-    #section-9-content {
-        display: grid;
-        gap: 20px;
-        grid-template-areas: "section-9-1 section-9-2 section-9-3 section-9-4";
-        grid-template-columns: 4 (1fr);
-        padding-bottom: 80px;
-        padding-top: 20px;
-
-        #section-9-1 {
-            background-color: $pink;
-            background-image: url(../img/train.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 60%;
+	font-size: .9em;
+	padding-top: 30px;
+	@include md {
+		font-size: 1.7em;
+		padding: 40px;
+	}
+	#section-9-content {
+		display: grid;
+		gap: 20px;
+		grid-template-areas: "section-9-1  section-9-2  section-9-3  section-9-4 ";
+		grid-template-columns: 20% 20% 20% 20%;
+		padding-bottom: 50px;
+		padding-left: 10px;
+		padding-top: 20px;
+		@include md {
+			gap: 20px;
+			grid-template-columns: 22% 22% 22% 22%;
+		}
+		#section-9-1 {
+			background-color: $pink;
+			background-image: url(../img/train.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 80%;
             height: 90px;
-            padding: 30px 20px;
-
-            >h4 {
-                color: white;
-                font-size: .8em;
-                margin-top: 90px;
-            }
-
-            #section-9-1-2 {
-                font-weight: 100;
+            margin-left: 5px;
+			padding: 20px 0px 20px 0px;
+			>h4 {
+				color: white;
+				font-size: .8em;
+				margin-top: 90px;
+				@include md {
+					font-size: .9em;
+					margin-top: 150px;
+				}
+			}
+			#section-9-1-2 {
+				font-weight: 100;
+				margin-top: 20px;
+				>h6 {
+					font-size: .8em;
+					font-weight: 100;
+					text-align: center;
+				}
+			}
+			@include md {
+				font-size: 1em;
+				padding: 60px 0px 100px 0px;
+			}
+		}
+		#section-9-2 {
+			background-color: $pink;
+			background-image: url(../img/plane.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 80%;
+			height: 90px;
+			margin-top: 80px;
+			padding: 20px 0px 20px 0px;
+			>h4 {
+				color: white;
+				font-size: .75em;
+				margin-top: 140px;
+				@include md {
+					font-size: .9em;
+					margin-top: 210px;
+				}
+			}
+			#section-9-2-2 {
+				font-weight: 100;
+				>h6 {
+					font-size: .8em;
+					font-weight: 100;
+					margin-top: -90px;
+					text-align: center;
+					@include md {
+						margin-top: -180px;
+					}
+				}
+			}
+			@include md {
+				font-size: 1em;
+				padding: 100px 0px 60px 0px;
+			}
+		}
+		#section-9-3 {
+			background-color: $pink;
+			background-image: url(../img/car.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 80%;
+			height: 90px;
+			padding: 20px 0px 20px 0px;
+			>h4 {
+				color: white;
+				font-size: .8em;
+				margin-top: 90px;
+				@include md {
+					font-size: .9em;
+					margin-top: 110px;
+				}
+			}
+			#section-9-3-2 {
+				font-weight: 100;
                 margin-top: 20px;
-
-                >h6 {
-                    font-weight: 100;
-                    font-size: .8em;
+                
+				>h6 {
+					font-weight: 100;
                     text-align: center;
-                }
-            }
-        }
-
-        #section-9-2 {
-            margin-top: 80px;
-            background-color: $pink;
-            background-image: url(../img/plane.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 60%;
-            height: 90px;
-            padding: 30px 20px;
-
-            >h4 {
-                color: white;
-                font-size: .8em;
-                margin-top: 130px;
-            }
-
-            #section-9-2-2 {
-                font-weight: 100;
-                margin-top: 0px;
-
-                >h6 {
-                    font-weight: 100;
-                    font-size: .8em;
-                    text-align: center;
-                    margin-top: -90px;
-                }
-            }
-        }
-    }
-
-  
-    #section-9-3 {
-        background-color: $pink;
-        background-image: url(../img/car.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 70%;
-        height: 90px;
-        padding: 30px 30px;
-
-        >h4 {
-            color: white;
-            font-size: .8em;
-            margin-top: 90px;
-        }
-
-        #section-9-3-2 {
-            font-weight: 100;
-            margin-top: 20px;
-
-            >h6 {
-                font-weight: 100;
-                text-align: center;
-              
-            }
-        }
-    }
-
-    #section-9-4 {
-        margin-top: 80px;
-        background-color: $pink;
-        background-image: url(../img/bus.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 50%;
-        height: 90px;
-        padding: 30px 20px;
-
-        >h4 {
-            color: white;
-            font-size: .8em;
-            margin-top: 130px;
-        }
-
-        #section-9-4-2 {
-            font-weight: 100;
-            margin-top: 0px;
-
-            >h6 {
-                font-weight: 100;
-                font-size: .8em;
-                text-align: center;
-                margin-top: -90px;
-            }
-        }
-    }
+                    font-size: 0.8em;
+                    
+				}
+			}
+			@include md {
+				font-size: 1em;
+				padding: 100px 0px 60px 0px;
+			}
+		}
+		#section-9-4 {
+			background-color: $pink;
+			background-image: url(../img/bus.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 80%;
+			height: 90px;
+			margin-top: 80px;
+			padding: 20px 0px 20px 0px;
+			>h4 {
+				color: white;
+				font-size: .8em;
+				margin-top: 130px;
+				@include md {
+					font-size: .9em;
+					margin-top: 220px;
+				}
+			}
+			#section-9-4-2 {
+				font-weight: 100;
+				margin-top: 0px;
+				>h6 {
+					font-size: .8em;
+					font-weight: 100;
+					margin-top: -90px;
+					text-align: center;
+					@include md {
+						font-size: .7em;
+						margin-top: -190px;
+					}
+				}
+			}
+			@include md {
+				font-size: 1em;
+				padding: 100px 0px 60px 0px;
+			}
+		}
+	}
 }

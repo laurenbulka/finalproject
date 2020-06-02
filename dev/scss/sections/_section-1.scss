@@ -1,30 +1,45 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    background-image: url('../img/ferriswheel.jpg');
+#section-1 {
     background-color: black;
-    background-size: 100%;
-    height: 40vh;
-    background-position: 0px 120px;
+    background-image: url('../img/ferriswheel.jpg');
+    background-position: 0px 160px;
     background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
+    height: 45vh;
 
-    >h1{
-        font-size: 3.5em;
+    >h1 {
         color: $pink;
-        padding-top: 40px;
-    }
-    >h2{
-        font-family: 'Playfair Display', serif;
-        padding-top: 20;
-        margin-top: -20px;
+        font-size: 3.5em;
+        padding-top: 80px;
+        @include md{
+            font-size: 6em;
+        }
     }
 
-    >h3{
+    >h2 {
+        font-family: 'Playfair Display', serif;
+        margin-top: -20px;
+        padding-top: 20;
+        @include md{
+            font-size: 2.5em;
+            margin-top: -30px;
+        }
+    }
+
+    >h3 {
+        font-size: .9em;
         font-weight: 100;
         padding-top: 15px;
-        font-size: .95em;
+        @include md{
+            font-size: 1.7em;
+        }
     }
 
+    @include md{
+        height: 58vh;
+        background-position: 0px 190px;
+    }
 }

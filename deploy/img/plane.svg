@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="58px" viewBox="0 0 59 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Plane-03.eps</title>
+    <defs>
+        <polygon id="path-1" points="0 0 58.33125 0 58.33125 57.69375 0 57.69375"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-95.000000, -2736.000000)">
+            <g id="Plane-03.eps" transform="translate(95.000000, 2736.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M56.7008669,1.63421321 C61.5019944,6.41508647 55.305399,10.7813195 43.2828373,22.7531623 L47.8228194,51.4384018 L43.6732094,57.69375 L33.761349,30.5115813 L21.2649564,42.0544859 L22.1803116,54.6393528 L19.5975742,56.7804692 L14.0498041,46.7165076 L11.5173215,44.1947086 L1.41072381,38.6694489 L3.56001359,36.0976072 L16.1990939,37.0099944 L27.7011595,24.4778512 L0,14.1332925 L6.92528987,10.6848084 L35.4924471,14.9956369 C47.6002624,2.93711288 51.898842,-3.14666004 56.7008669,1.63421321" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

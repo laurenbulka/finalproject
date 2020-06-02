@@ -1,18 +1,27 @@
 /* =============
     Section 5
 ============= */
-#section-5{
-    padding-top: 50px;
-    display: grid;
+#section-5 {
     background-image: url(../img/headphones.png);
-    height: 40vh;
-    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    background-size: 80%;
+    display: grid;
+    height: 40vh;
+    padding:20px 20px 70px 20px ;
+  
 
-    p{
-       font-weight: 100;
-        padding: 10px 25px 0px 25px
+    @include md {
+        padding: 250px 20px;
+        background-size: 70%;
+    }
+
+    p {
+        font-weight: 100;
+        padding: 10px;
+        @include md{
+            font-size: 1.6em;
+            padding: 0px 20px;
+          }
     }
 }

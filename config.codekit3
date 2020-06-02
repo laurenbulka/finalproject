@@ -30,27 +30,25 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/bus.png": {
-		"ft": 32768,
-		"iS": 2268,
-		"oA": 0,
-		"oAP": "/deploy/img/bus.png",
+	"/deploy/img/bus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/bus.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
-	"/deploy/img/car.png": {
-		"ft": 32768,
-		"iS": 2728,
-		"oA": 0,
-		"oAP": "/deploy/img/car.png",
+	"/deploy/img/car.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/car.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/ferriswheel.jpg": {
 		"ft": 16384,
@@ -69,17 +67,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/ferriswheel2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/food.jpg": {
-		"ft": 16384,
-		"iS": 559211,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/food.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -118,16 +105,35 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/plane.png": {
-		"ft": 32768,
-		"iS": 4052,
-		"oA": 0,
-		"oAP": "/deploy/img/plane.png",
+	"/deploy/img/plane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/plane.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/qbottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/qbottom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/qtop1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/qtop1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/sandcastle.png": {
 		"ft": 32768,
@@ -140,16 +146,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/train.png": {
-		"ft": 32768,
-		"iS": 2777,
-		"oA": 0,
-		"oAP": "/deploy/img/train.png",
+	"/deploy/img/Train.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/Train.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -170,67 +175,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/assets/2342441.jpg": {
-		"ft": 16384,
-		"iS": 152155,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/2342441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/assets/4141.jpg": {
-		"ft": 16384,
-		"iS": 104961,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/4141.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/assets/4441.jpg": {
-		"ft": 16384,
-		"iS": 139189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/4441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg": {
-		"ft": 16384,
-		"iS": 84293,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/assets/main_slide_21.jpg": {
-		"ft": 16384,
-		"iS": 1423110,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/main_slide_21.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/content-quiz.sketch": {
+	"/design/BulkaLIndependent copy.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/content-quiz.sketch",
+		"oAP": "/design/BulkaLIndependent copy.sketch",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
@@ -241,6 +191,14 @@
 		"oAP": "/dev/footer.html",
 		"oF": 0
 		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/header.html",
+		"oF": 1
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -248,6 +206,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,

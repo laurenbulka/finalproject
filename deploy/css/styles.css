@@ -350,25 +350,83 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        align-items: center;
+        display: flex;
+        margin: 0px 30px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: black;
+      text-decoration: none;
+      transition: 0.25s;
+      font-family: 'Montserrat', sans-serif; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: white; }
+
 /* =============
     Header
 ============= */
+header {
+  background-color: #F1607A;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header > div {
+    display: grid;
+    grid-template-areas: "logo burger" "nav nav";
+    grid-template-columns: 80% auto; }
+    @media (min-width: 992px) {
+      header > div {
+        grid-template-areas: "logo nav";
+        grid-template-columns: 20% auto; } }
+    header > div #burger-container {
+      align-items: center;
+      display: flex;
+      grid-area: burger;
+      justify-content: flex-end;
+      padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #burger-container {
+          display: none !important; } }
+      header > div #burger-container i {
+        cursor: pointer; }
+    header > div #nav-container {
+      background-color: #F1607A;
+      display: none;
+      grid-area: nav;
+      padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #nav-container {
+          background-color: #fff;
+          display: block !important; } }
 /* =============
     Footer
 ============= */
 footer {
-  background-color: black;
+  background-color: #F1607A;
   background-position: center;
-  color: grey;
-  padding: 10px 70px;
+  color: white;
+  padding: 10px;
   text-align: center; }
   footer #footer-content {
     justify-content: space-between;
     list-style: none; }
     footer #footer-content h1 {
-      color: #F1607A;
+      color: white;
       font-size: .8em;
-      padding-bottom: 50px; }
+      padding-bottom: 20px; }
       footer #footer-content h1 #white {
         color: white; }
       @media (min-width: 992px) {
@@ -382,15 +440,15 @@ footer {
       list-style: none;
       padding: 5px; }
       footer #footer-content ul li {
-        padding: 20px 10px; }
+        padding: 0px 10px; }
         footer #footer-content ul li a:link,
         footer #footer-content ul li a:visited {
-          color: grey;
+          color: white;
           font-size: 2em;
           transition: 0.3s; }
         footer #footer-content ul li a:hover,
         footer #footer-content ul li a:active {
-          color: #fff; }
+          color: black; }
     @media (min-width: 992px) {
       footer #footer-content {
         align-items: center;
@@ -412,26 +470,39 @@ footer {
     Section 1
 ============= */
 #section-1 {
-  background-image: url("../img/ferriswheel.jpg");
   background-color: black;
-  background-size: 100%;
-  height: 40vh;
-  background-position: 0px 120px;
+  background-image: url("../img/ferriswheel.jpg");
+  background-position: 0px 160px;
   background-repeat: no-repeat;
-  color: white; }
+  background-size: 100%;
+  color: white;
+  height: 45vh; }
   #section-1 > h1 {
-    font-size: 3.5em;
     color: #F1607A;
-    padding-top: 40px; }
+    font-size: 3.5em;
+    padding-top: 80px; }
+    @media (min-width: 768px) {
+      #section-1 > h1 {
+        font-size: 6em; } }
   #section-1 > h2 {
     font-family: 'Playfair Display', serif;
-    padding-top: 20;
-    margin-top: -20px; }
+    margin-top: -20px;
+    padding-top: 20; }
+    @media (min-width: 768px) {
+      #section-1 > h2 {
+        font-size: 2.5em;
+        margin-top: -30px; } }
   #section-1 > h3 {
+    font-size: .9em;
     font-weight: 100;
-    padding-top: 15px;
-    font-size: .95em; }
-
+    padding-top: 15px; }
+    @media (min-width: 768px) {
+      #section-1 > h3 {
+        font-size: 1.7em; } }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 58vh;
+      background-position: 0px 190px; } }
 /* =============
     Section 2
 ============= */
@@ -442,61 +513,106 @@ footer {
   border-top: solid;
   border-color: #F1607A;
   border-width: 40px; }
-
+  @media (min-width: 768px) {
+    #section-2 {
+      font-size: 1.5em;
+      padding: 40px 40px; } }
 /* =============
     Section 3
 ============= */
 #section-3 {
   border-top: solid;
   border-color: #F1607A;
-  border-width: 10px;
+  border-width: 15px;
   border-bottom: solid;
   border-color: #F1607A;
-  border-width: 10px; }
+  border-width: 15px; }
+  #section-3 #section-3-content {
+    padding-top: 40px; }
+    @media (min-width: 768px) {
+      #section-3 #section-3-content {
+        display: grid;
+        grid-template-areas: "section-3-img section-3-right";
+        grid-template-columns: 60% auto;
+        padding: 40px 20px; } }
   #section-3 #section-3-img {
     background-image: url("../img/ferriswheel2.jpg");
-    background-size: cover;
-    height: 40vh;
-    color: white; }
-  #section-3 #section-3-text {
-    padding: 30px; }
-    #section-3 #section-3-text .pinktext {
-      font-family: 'Playfair Display', serif;
-      color: #F1607A;
-      font-weight: 900;
-      font-size: 2em;
-      padding: 0px;
-      margin: 0px;
-      line-height: 1em; }
+    background-position: center;
+    background-size: 200%;
+    clip-path: circle(180px at center);
+    padding: 30px 30px 0px 30px;
+    color: white;
+    height: 40vh; }
+    @media (min-width: 768px) {
+      #section-3 #section-3-img {
+        clip-path: circle(205px at center); } }
+  #section-3 #section-3-right img {
+    width: 35px; }
+  #section-3 #section-3-right #section-3-text {
+    font-size: 1.15em;
+    line-height: 2em;
+    padding: 0px 20px 0px 25px; }
+    @media (min-width: 768px) {
+      #section-3 #section-3-right #section-3-text {
+        font-size: 1.2em;
+        padding: 50px 5px 5px 5px; } }
+  #section-3 #section-3-right #qtop {
+    margin: 20px 0px 10px 10px; }
+  #section-3 #section-3-right #qbottom {
+    margin: 20px 30px 20px 360px; }
 
 /* =============
     Section 4
 ============= */
 #section-4 {
-  background-image: url(../img/band.png);
   height: 40vh;
-  background-size: cover;
   color: white;
-  font-size: 2em; }
-  #section-4 > h1 {
-    padding-top: 278px; }
+  font-size: 1.8em; }
+  #section-4 .background {
+    background-image: url(../img/band.png);
+    position: relative;
+    background-size: cover;
+    height: 40vh; }
+    @media (min-width: 768px) {
+      #section-4 .background {
+        height: 50vh; } }
+  #section-4 .layer {
+    background-color: rgba(241, 96, 122, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    #section-4 .layer h1 {
+      margin-bottom: -15px;
+      padding: 0px; }
 
 /* =============
     Section 5
 ============= */
 #section-5 {
-  padding-top: 50px;
-  display: grid;
   background-image: url(../img/headphones.png);
-  height: 40vh;
-  background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 50px; }
+  background-size: 80%;
+  display: grid;
+  height: 40vh;
+  padding: 20px 20px 70px 20px; }
+  @media (min-width: 768px) {
+    #section-5 {
+      padding: 250px 20px;
+      background-size: 70%; } }
   #section-5 p {
     font-weight: 100;
-    padding: 10px 25px 0px 25px; }
-
+    padding: 10px; }
+    @media (min-width: 768px) {
+      #section-5 p {
+        font-size: 1.6em;
+        padding: 0px 20px; } }
 /* =============
     Section 6
 ============= */
@@ -504,59 +620,91 @@ footer {
   display: grid;
   grid-template-columns: 40% auto;
   margin-top: 40px; }
+  @media (min-width: 768px) {
+    #section-6 {
+      margin-top: 0px; } }
   #section-6 #section-6-h {
     color: #F1607A;
-    font-size: 1.7em;
+    font-size: 1.3em;
     margin-top: 20px; }
+    @media (min-width: 768px) {
+      #section-6 #section-6-h {
+        font-size: 2.8em;
+        margin-top: 20px; } }
   #section-6 #section-6-text {
     background-color: #F1607A;
     color: white;
+    font-size: 0.9em;
     font-weight: 100;
-    line-height: 1.4em;
+    line-height: 1.2em;
     padding: 25px 15px; }
     #section-6 #section-6-text #p1 {
       padding-bottom: 10px; }
     #section-6 #section-6-text #p2 {
       padding-bottom: 10px; }
-
+    @media (min-width: 768px) {
+      #section-6 #section-6-text {
+        font-size: 1.6em; } }
 #section-6-bg {
   background-image: url("../img/food2.jpg");
   background-position: -140px 0px;
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 190%;
   height: 400px;
   margin-right: 100px;
-  margin-top: -290px; }
-
+  margin-top: -260px; }
+  @media (min-width: 768px) {
+    #section-6-bg {
+      background-size: 100%;
+      margin-top: -340px;
+      padding-bottom: 80px; } }
 /* =============
     Section 7
 ============= */
 #section-7 {
   display: grid;
   grid-template-columns: 20% auto;
-  margin-top: 40px;
+  margin-top: 10px;
   padding-bottom: 200px;
   position: relative; }
-  #section-7 > h1 {
+  @media (min-width: 768px) {
+    #section-7 {
+      grid-template-columns: 25% auto;
+      padding-bottom: 400px; } }
+  #section-7 aside section h1 {
     color: black;
-    font-size: 3em; }
+    font-size: 3em;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-top: 70px;
+    padding-left: 10px; }
   #section-7 #section-7-text {
     background-color: #F1607A;
     color: white;
     font-weight: 100;
     margin-top: 40px;
-    padding: 20px 30px 150px;
-    padding-bottom: 150px; }
+    padding: 20px 30px 130px;
+    padding-bottom: 130px; }
     #section-7 #section-7-text > p {
-      text-align: left;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      text-align: left; }
+    @media (min-width: 768px) {
+      #section-7 #section-7-text {
+        font-size: 1.6em;
+        padding: 20px 40px 220px 50px; } }
   #section-7 img {
-    bottom: 30px;
-    margin-left: 160px;
-    margin-right: 20%;
+    bottom: 60px;
+    margin-left: 110px;
     position: absolute;
-    width: 300px; }
-
+    width: 250px; }
+    @media (min-width: 768px) {
+      #section-7 img {
+        bottom: 140px;
+        margin-left: 300px;
+        width: 450px; } }
 /* =============
     Section 8
 ============= */
@@ -564,111 +712,174 @@ footer {
   background-image: url(../img/ny.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 30px;
-  color: white; }
+  background-size: cover;
+  color: white;
+  padding: 30px; }
+  @media (min-width: 768px) {
+    #section-8 {
+      height: 65vh; } }
   #section-8 > h1 {
-    font-size: 2.5em;
-    text-align: left; }
+    font-size: 2.2em;
+    padding-bottom: 10px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-8 > h1 {
+        font-size: 4em; } }
   #section-8 #section-8-text {
-    padding: 20px;
-    background-color: #F1607A;
-    line-height: 1.5em;
-    font-weight: 100; }
+    background-color: rgba(241, 96, 122, 0.89);
+    font-size: 0.7em;
+    font-weight: 100;
+    line-height: 1.3em;
+    padding: 20px; }
     #section-8 #section-8-text > p {
+      padding-bottom: 10px;
       text-align: left; }
     #section-8 #section-8-text > h5 {
-      text-align: left;
-      font-weight: 600;
-      font-size: 1em; }
-
+      font-size: 1em;
+      font-weight: 500;
+      text-align: left; }
+    @media (min-width: 768px) {
+      #section-8 #section-8-text {
+        font-size: 1.45em;
+        padding: 20px 50px; } }
 /* =============
     Section 9
 ============= */
 #section-9 {
+  font-size: .9em;
   padding-top: 30px; }
+  @media (min-width: 768px) {
+    #section-9 {
+      font-size: 1.7em;
+      padding: 40px; } }
   #section-9 #section-9-content {
     display: grid;
     gap: 20px;
-    grid-template-areas: "section-9-1 section-9-2 section-9-3 section-9-4";
-    grid-template-columns: 4 1fr;
-    padding-bottom: 80px;
+    grid-template-areas: "section-9-1  section-9-2  section-9-3  section-9-4 ";
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-bottom: 50px;
+    padding-left: 10px;
     padding-top: 20px; }
+    @media (min-width: 768px) {
+      #section-9 #section-9-content {
+        gap: 20px;
+        grid-template-columns: 22% 22% 22% 22%; } }
     #section-9 #section-9-content #section-9-1 {
       background-color: #F1607A;
-      background-image: url(../img/train.png);
+      background-image: url(../img/train.svg);
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 60%;
+      background-size: 80%;
       height: 90px;
-      padding: 30px 20px; }
+      margin-left: 5px;
+      padding: 20px 0px 20px 0px; }
       #section-9 #section-9-content #section-9-1 > h4 {
         color: white;
         font-size: .8em;
         margin-top: 90px; }
+        @media (min-width: 768px) {
+          #section-9 #section-9-content #section-9-1 > h4 {
+            font-size: .9em;
+            margin-top: 150px; } }
       #section-9 #section-9-content #section-9-1 #section-9-1-2 {
         font-weight: 100;
         margin-top: 20px; }
         #section-9 #section-9-content #section-9-1 #section-9-1-2 > h6 {
-          font-weight: 100;
           font-size: .8em;
+          font-weight: 100;
           text-align: center; }
+      @media (min-width: 768px) {
+        #section-9 #section-9-content #section-9-1 {
+          font-size: 1em;
+          padding: 60px 0px 100px 0px; } }
     #section-9 #section-9-content #section-9-2 {
-      margin-top: 80px;
       background-color: #F1607A;
-      background-image: url(../img/plane.png);
+      background-image: url(../img/plane.svg);
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 60%;
+      background-size: 80%;
       height: 90px;
-      padding: 30px 20px; }
+      margin-top: 80px;
+      padding: 20px 0px 20px 0px; }
       #section-9 #section-9-content #section-9-2 > h4 {
+        color: white;
+        font-size: .75em;
+        margin-top: 140px; }
+        @media (min-width: 768px) {
+          #section-9 #section-9-content #section-9-2 > h4 {
+            font-size: .9em;
+            margin-top: 210px; } }
+      #section-9 #section-9-content #section-9-2 #section-9-2-2 {
+        font-weight: 100; }
+        #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
+          font-size: .8em;
+          font-weight: 100;
+          margin-top: -90px;
+          text-align: center; }
+          @media (min-width: 768px) {
+            #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
+              margin-top: -180px; } }
+      @media (min-width: 768px) {
+        #section-9 #section-9-content #section-9-2 {
+          font-size: 1em;
+          padding: 100px 0px 60px 0px; } }
+    #section-9 #section-9-content #section-9-3 {
+      background-color: #F1607A;
+      background-image: url(../img/car.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      height: 90px;
+      padding: 20px 0px 20px 0px; }
+      #section-9 #section-9-content #section-9-3 > h4 {
+        color: white;
+        font-size: .8em;
+        margin-top: 90px; }
+        @media (min-width: 768px) {
+          #section-9 #section-9-content #section-9-3 > h4 {
+            font-size: .9em;
+            margin-top: 110px; } }
+      #section-9 #section-9-content #section-9-3 #section-9-3-2 {
+        font-weight: 100;
+        margin-top: 20px; }
+        #section-9 #section-9-content #section-9-3 #section-9-3-2 > h6 {
+          font-weight: 100;
+          text-align: center;
+          font-size: 0.8em; }
+      @media (min-width: 768px) {
+        #section-9 #section-9-content #section-9-3 {
+          font-size: 1em;
+          padding: 100px 0px 60px 0px; } }
+    #section-9 #section-9-content #section-9-4 {
+      background-color: #F1607A;
+      background-image: url(../img/bus.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      height: 90px;
+      margin-top: 80px;
+      padding: 20px 0px 20px 0px; }
+      #section-9 #section-9-content #section-9-4 > h4 {
         color: white;
         font-size: .8em;
         margin-top: 130px; }
-      #section-9 #section-9-content #section-9-2 #section-9-2-2 {
+        @media (min-width: 768px) {
+          #section-9 #section-9-content #section-9-4 > h4 {
+            font-size: .9em;
+            margin-top: 220px; } }
+      #section-9 #section-9-content #section-9-4 #section-9-4-2 {
         font-weight: 100;
         margin-top: 0px; }
-        #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
-          font-weight: 100;
+        #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
           font-size: .8em;
-          text-align: center;
-          margin-top: -90px; }
-  #section-9 #section-9-3 {
-    background-color: #F1607A;
-    background-image: url(../img/car.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    height: 90px;
-    padding: 30px 30px; }
-    #section-9 #section-9-3 > h4 {
-      color: white;
-      font-size: .8em;
-      margin-top: 90px; }
-    #section-9 #section-9-3 #section-9-3-2 {
-      font-weight: 100;
-      margin-top: 20px; }
-      #section-9 #section-9-3 #section-9-3-2 > h6 {
-        font-weight: 100;
-        text-align: center; }
-  #section-9 #section-9-4 {
-    margin-top: 80px;
-    background-color: #F1607A;
-    background-image: url(../img/bus.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    height: 90px;
-    padding: 30px 20px; }
-    #section-9 #section-9-4 > h4 {
-      color: white;
-      font-size: .8em;
-      margin-top: 130px; }
-    #section-9 #section-9-4 #section-9-4-2 {
-      font-weight: 100;
-      margin-top: 0px; }
-      #section-9 #section-9-4 #section-9-4-2 > h6 {
-        font-weight: 100;
-        font-size: .8em;
-        text-align: center;
-        margin-top: -90px; }
+          font-weight: 100;
+          margin-top: -90px;
+          text-align: center; }
+          @media (min-width: 768px) {
+            #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
+              font-size: .7em;
+              margin-top: -190px; } }
+      @media (min-width: 768px) {
+        #section-9 #section-9-content #section-9-4 {
+          font-size: 1em;
+          padding: 100px 0px 60px 0px; } }
