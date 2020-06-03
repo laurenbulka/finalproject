@@ -5,12 +5,17 @@
     display: grid;
     grid-template-columns: 20% auto;
     margin-top: 10px;
-    padding-bottom: 200px;
+    padding-bottom: 180px;
     position: relative;
 
     @include md {
         grid-template-columns: 20% auto;
-        padding-bottom: 600px;
+        padding-bottom: 550px;
+    }
+
+    @include lg {
+        grid-template-columns: 20% auto;
+        padding-bottom: 420px;
     }
 
     aside{
@@ -55,15 +60,21 @@
             text-align: left;
             @include md {
                 padding-bottom: 30px;
-                
             }
         }
 
         @include md {
             font-size: 2.2em;
             padding: 40px 60px 430px 50px;
-
         }
+
+        @include lg {
+            font-size: 2.2em;
+            padding: 60px 60px 300px 50px;
+        }
+
+
+
     }
 
     img {
@@ -74,7 +85,13 @@
 
         @include md {
             bottom: 260px;
-            margin-left: 250px;
+            margin-left: 220px;
+            width: 650px;
+        }
+
+        @include lg {
+            bottom: 140px;
+            margin-left: 280px;
             width: 650px;
         }
     }

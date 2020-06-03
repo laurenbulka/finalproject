@@ -1,6 +1,7 @@
 /* =============
     Navigation
 ============= */
+
 #nav-container {
     ul {
         height: 100%;
@@ -23,9 +24,9 @@
             a:link,
             a:visited {
                 color: black;
+                font-family: 'Montserrat', sans-serif;
                 text-decoration: none;
                 transition: 0.25s;
-                font-family: 'Montserrat', sans-serif;;
             }
 
             a:hover,

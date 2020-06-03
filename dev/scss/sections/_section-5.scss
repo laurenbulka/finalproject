@@ -16,6 +16,12 @@
         background-size: 60%;
     }
 
+
+    @include lg {
+        padding: 220px 20px;
+        background-size: 60%;
+    }
+
     p {
         font-weight: 100;
         padding: 10px;
@@ -23,6 +29,12 @@
         @include md{
             font-size: 1.75em;
             padding: 0px 24px;
+          }
+
+          @include lg{
+            font-size: 1.75em;
+            padding: 0px 60px;
+            padding-bottom: 30px;
           }
     }
 }

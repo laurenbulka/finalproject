@@ -16,6 +16,11 @@
             background-size: cover;
             height: 40vh;
         }
+
+        @include lg {
+            background-size: cover;
+            height: 50vh;
+        }
     }
 
     .layer {

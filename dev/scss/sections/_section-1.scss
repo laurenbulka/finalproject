@@ -10,12 +10,17 @@
     color: white;
     height: 45vh;
 
+ 
+
     >h1 {
         color: $pink;
         font-size: 3.5em;
         padding-top: 80px;
         @include md{
             font-size: 6em;
+        }
+        @include lg{
+            padding-top: 120px;
         }
     }
 
@@ -42,4 +47,9 @@
         height: 54vh;
         background-position: 0px 190px;
     }
+
+    @include lg{
+        height: 70vh;
+        background-position: 0px 210px;
+     }
 }

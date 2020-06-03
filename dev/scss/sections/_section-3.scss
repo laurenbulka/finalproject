@@ -31,6 +31,11 @@
         @include md {
             clip-path: circle(235px at center);
         }
+
+        @include lg {
+            clip-path: circle(255px at center);
+            padding: 60px;
+        }
     }
 
     #section-3-right {
@@ -47,13 +52,23 @@
                 font-size: 1.2em;
                 padding: 0px 50px 5px 40px;
             }
+
+
+            @include lg {
+                font-size: 1.2em;
+                padding: 0px 30px 5px 20px;
+                line-height: 2.3em;
+            }
         }
 
         #qtop {
             margin: 20px 0px 10px 10px;
             @include md {
-                margin: 90px 0px 0px 30px;
-                
+                margin: 70px 0px 0px 30px; 
+            }
+
+            @include lg {
+                margin: 120px 0px 0px -20px; 
             }
         }
 
@@ -61,7 +76,10 @@
             margin: 20px 30px 20px 360px;
             @include md {
                 margin: 0px 0px 0px 330px;
-                
+            }
+
+            @include lg {
+                margin: 0px 0px 0px 390px; 
             }
         }
     }
