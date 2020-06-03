@@ -4,6 +4,8 @@
 #section-9 {
 	font-size: .9em;
 	padding-top: 30px;
+	margin-top: 20px;
+
 	@include md {
 		font-size: 1.7em;
 		padding: 40px;
@@ -79,7 +81,7 @@
 					margin-top: -90px;
 					text-align: center;
 					@include md {
-						margin-top: -170px;
+						margin-top: -180px;
 					}
 				}
 			}
@@ -146,11 +148,11 @@
 				>h6 {
 					font-size: .8em;
 					font-weight: 100;
-					margin-top: -100px;
+					margin-top: -90px;
 					text-align: center;
 					@include md {
 						font-size: .75em;
-						margin-top: -190px;
+						margin-top: -200px;
 					}
 				}
 			}

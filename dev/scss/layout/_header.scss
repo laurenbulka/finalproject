@@ -18,7 +18,16 @@ header {
             grid-template-areas: "logo nav";
             grid-template-columns: 20% auto;
         }
+#logo{
+    width: 40px;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 10px;
 
+    @include lg{
+        width: 60px;
+    }
+}
 
         #burger-container {
             align-items: center;
@@ -41,10 +50,12 @@ header {
             display: none;
             grid-area: nav;
             padding: 20px;
+            
 
             @include lg {
-                background-color: $white;
+                background-color: $pink;
                 display: block !important;
+                
             }
         }
     }

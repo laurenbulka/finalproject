@@ -391,6 +391,14 @@ header {
       header > div {
         grid-template-areas: "logo nav";
         grid-template-columns: 20% auto; } }
+    header > div #logo {
+      width: 40px;
+      align-content: center;
+      margin-left: 20px;
+      margin-top: 10px; }
+      @media (min-width: 992px) {
+        header > div #logo {
+          width: 60px; } }
     header > div #burger-container {
       align-items: center;
       display: flex;
@@ -409,7 +417,7 @@ header {
       padding: 20px; }
       @media (min-width: 992px) {
         header > div #nav-container {
-          background-color: #fff;
+          background-color: #F1607A;
           display: block !important; } }
 /* =============
     Footer
@@ -558,7 +566,7 @@ footer {
     padding: 30px 30px 0px 30px; }
     @media (min-width: 768px) {
       #section-3 #section-3-img {
-        clip-path: circle(255px at center); } }
+        clip-path: circle(235px at center); } }
   #section-3 #section-3-right img {
     width: 35px; }
   #section-3 #section-3-right #section-3-text {
@@ -568,7 +576,7 @@ footer {
     @media (min-width: 768px) {
       #section-3 #section-3-right #section-3-text {
         font-size: 1.2em;
-        padding: 0px 60px 5px 50px; } }
+        padding: 0px 50px 5px 40px; } }
   #section-3 #section-3-right #qtop {
     margin: 20px 0px 10px 10px; }
     @media (min-width: 768px) {
@@ -578,7 +586,7 @@ footer {
     margin: 20px 30px 20px 360px; }
     @media (min-width: 768px) {
       #section-3 #section-3-right #qbottom {
-        margin: 0px 0px 0px 350px; } }
+        margin: 0px 0px 0px 330px; } }
 /* =============
     Section 4
 ============= */
@@ -758,7 +766,7 @@ footer {
   padding: 30px; }
   @media (min-width: 768px) {
     #section-8 {
-      height: 75vh; } }
+      height: 90vh; } }
   #section-8 > h1 {
     font-size: 2.2em;
     padding-bottom: 10px;
@@ -792,7 +800,8 @@ footer {
 ============= */
 #section-9 {
   font-size: .9em;
-  padding-top: 30px; }
+  padding-top: 30px;
+  margin-top: 20px; }
   @media (min-width: 768px) {
     #section-9 {
       font-size: 1.7em;
@@ -864,7 +873,7 @@ footer {
           text-align: center; }
           @media (min-width: 768px) {
             #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
-              margin-top: -170px; } }
+              margin-top: -180px; } }
       @media (min-width: 768px) {
         #section-9 #section-9-content #section-9-2 {
           font-size: 1em;
@@ -921,12 +930,12 @@ footer {
         #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
           font-size: .8em;
           font-weight: 100;
-          margin-top: -100px;
+          margin-top: -90px;
           text-align: center; }
           @media (min-width: 768px) {
             #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
               font-size: .75em;
-              margin-top: -190px; } }
+              margin-top: -200px; } }
       @media (min-width: 768px) {
         #section-9 #section-9-content #section-9-4 {
           font-size: 1em;

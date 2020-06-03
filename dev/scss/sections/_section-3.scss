@@ -29,7 +29,7 @@
         padding: 30px 30px 0px 30px;
 
         @include md {
-            clip-path: circle(255px at center);
+            clip-path: circle(235px at center);
         }
     }
 
@@ -45,7 +45,7 @@
 
             @include md {
                 font-size: 1.2em;
-                padding: 0px 60px 5px 50px;
+                padding: 0px 50px 5px 40px;
             }
         }
 
@@ -60,7 +60,7 @@
         #qbottom {
             margin: 20px 30px 20px 360px;
             @include md {
-                margin: 0px 0px 0px 350px;
+                margin: 0px 0px 0px 330px;
                 
             }
         }
