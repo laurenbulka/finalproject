@@ -728,7 +728,7 @@ footer {
     #section-5 {
       background-position: bottom;
       background-size: 30%;
-      padding: 260px 40px 120px; } }
+      padding: 260px 40px 40px; } }
   #section-5 p {
     font-weight: 100;
     padding: 10px;
@@ -744,8 +744,8 @@ footer {
     @media (min-width: 1200px) {
       #section-5 p {
         font-size: 1.4em;
-        padding: 10px 240px 0px;
-        padding-bottom: 30px; } }
+        padding: 0px 160px 0px;
+        padding-bottom: 10px; } }
 /* =============
     Section 6
 ============= */
@@ -772,6 +772,10 @@ footer {
     @media (min-width: 992px) {
       #section-6 #section-6-h {
         font-size: 3.5em;
+        margin-top: -20px; } }
+    @media (min-width: 992px) {
+      #section-6 #section-6-h {
+        font-size: 3.8em;
         margin-top: -20px; } }
   #section-6 #section-6-text {
     background-color: #F1607A;
@@ -848,7 +852,7 @@ footer {
   @media (min-width: 1200px) {
     #section-7 {
       grid-template-columns: 20% auto;
-      padding: 30px 30px 80px; } }
+      padding: 30px 20px 80px; } }
   @media (min-width: 768px) {
     #section-7 aside {
       font-size: 1.8em;
@@ -874,7 +878,7 @@ footer {
         padding-top: 40px; } }
     @media (min-width: 1200px) {
       #section-7 aside section h1 {
-        padding-left: 80px;
+        padding-left: 100px;
         padding-top: 0px; } }
   #section-7 #section-7-text {
     background-color: #F1607A;
@@ -923,7 +927,7 @@ footer {
     @media (min-width: 1200px) {
       #section-7 img {
         bottom: 100px;
-        margin-left: 350px;
+        margin-left: 420px;
         width: 500px; } }
 /* =============
     Section 8
@@ -996,6 +1000,9 @@ footer {
   @media (min-width: 992px) {
     #section-9 {
       padding: 40px 140px; } }
+  @media (min-width: 1200px) {
+    #section-9 {
+      padding: 40px 240px; } }
   #section-9 #section-9-content {
     display: grid;
     gap: 20px;

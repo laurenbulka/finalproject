@@ -15,6 +15,10 @@
 		padding: 40px 140px;
 	}
 
+	@include xl {
+		padding: 40px 240px;
+	}
+
 	#section-9-content {
 		display: grid;
 		gap: 20px;

@@ -21,7 +21,7 @@
 
     @include xl {
         grid-template-columns: 20% auto;
-        padding: 30px 30px 80px;
+        padding: 30px 20px 80px;
     }
 
     aside {
@@ -54,7 +54,7 @@
                 }
 
                 @include xl {
-                    padding-left: 80px;
+                    padding-left: 100px;
                     padding-top: 0px;
                 }
             }
@@ -118,7 +118,7 @@
 
         @include xl {
             bottom: 100px;
-            margin-left: 350px;
+            margin-left: 420px;
             width: 500px;
         }
     }

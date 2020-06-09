@@ -24,6 +24,11 @@
 		@include lg {
 			font-size: 3.5em;
 			margin-top: -20px;
+        }
+        
+        @include lg {
+			font-size: 3.8em;
+			margin-top: -20px;
 		}
 	}
 	#section-6-text {
