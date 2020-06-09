@@ -3,13 +3,18 @@
 ============= */
 #section-9 {
 	font-size: .9em;
-	padding-top: 30px;
 	margin-top: 20px;
+	padding-top: 30px;
 
 	@include md {
 		font-size: 1.7em;
 		padding: 40px;
 	}
+
+	@include lg {
+		padding: 40px 260px;
+	}
+
 	#section-9-content {
 		display: grid;
 		gap: 20px;
@@ -18,43 +23,51 @@
 		padding-bottom: 50px;
 		padding-left: 10px;
 		padding-top: 20px;
+
 		@include md {
 			gap: 20px;
-            grid-template-columns: 22% 22% 22% 22%;
-            margin-left: 20px;
+			grid-template-columns: 22% 22% 22% 22%;
+			margin-left: 20px;
 		}
+
 		#section-9-1 {
 			background-color: $pink;
 			background-image: url(../img/train.svg);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 80%;
-            height: 90px;
-            margin-left: 5px;
+			height: 90px;
+			margin-left: 5px;
 			padding: 20px 0px 20px 0px;
+
 			>h4 {
 				color: white;
 				font-size: .8em;
 				margin-top: 90px;
+
 				@include md {
 					font-size: .9em;
 					margin-top: 170px;
 				}
 			}
+
 			#section-9-1-2 {
 				font-weight: 100;
 				margin-top: 20px;
+
 				>h6 {
 					font-size: .8em;
 					font-weight: 100;
 					text-align: center;
 				}
 			}
+
 			@include md {
 				font-size: 1em;
 				padding: 60px 0px 120px 0px;
 			}
 		}
+
 		#section-9-2 {
 			background-color: $pink;
 			background-image: url(../img/plane.svg);
@@ -64,36 +77,43 @@
 			height: 90px;
 			margin-top: 100px;
 			padding: 20px 0px 20px 0px;
+
 			>h4 {
 				color: white;
 				font-size: .75em;
 				margin-top: 140px;
+
 				@include md {
 					font-size: .9em;
 					margin-top: 240px;
 				}
 
 				@include lg {
-					margin-top: 260px;
+					margin-top: 250px;
 				}
 			}
+
 			#section-9-2-2 {
 				font-weight: 100;
+
 				>h6 {
 					font-size: .8em;
 					font-weight: 100;
 					margin-top: -90px;
 					text-align: center;
+
 					@include md {
 						margin-top: -180px;
 					}
 				}
 			}
+
 			@include md {
 				font-size: 1em;
 				padding: 100px 0px 80px 0px;
 			}
 		}
+
 		#section-9-3 {
 			background-color: $pink;
 			background-image: url(../img/car.svg);
@@ -102,32 +122,38 @@
 			background-size: 80%;
 			height: 90px;
 			padding: 20px 0px 20px 0px;
+
 			>h4 {
 				color: white;
 				font-size: .8em;
 				margin-top: 90px;
+
 				@include md {
 					font-size: .9em;
 					margin-top: 120px;
 				}
 			}
+
 			#section-9-3-2 {
 				font-weight: 100;
-                margin-top: 20px;
-                
+				margin-top: 20px;
+
 				>h6 {
+					font-size: 0.8em;
 					font-weight: 100;
-                    text-align: center;
-                    font-size: 0.8em;
-                    @include md {
+					text-align: center;
+
+					@include md {
 						font-size: .8em;
 					}
 				}
 			}
+
 			@include md {
 				padding: 100px 0px 70px 0px;
 			}
 		}
+
 		#section-9-4 {
 			background-color: $pink;
 			background-image: url(../img/bus.svg);
@@ -137,36 +163,42 @@
 			height: 100px;
 			margin-top: 100px;
 			padding: 20px 0px 20px 0px;
+
 			>h4 {
 				color: white;
 				font-size: .8em;
 				margin-top: 140px;
+
 				@include md {
 					font-size: .9em;
-					margin-top: 250px;
+					margin-top: 240px;
 				}
 
 				@include lg {
-					margin-top: 270px;
+					margin-top: 250px;
 				}
 			}
+
 			#section-9-4-2 {
 				font-weight: 100;
 				margin-top: 0px;
+
 				>h6 {
 					font-size: .8em;
 					font-weight: 100;
 					margin-top: -90px;
 					text-align: center;
+
 					@include md {
 						font-size: .75em;
-						margin-top: -200px;
+						margin-top: -195px;
 					}
 				}
 			}
+
 			@include md {
 				font-size: 1em;
-				padding: 100px 0px 80px 0px;
+				padding: 100px 0px 70px 0px;
 			}
 		}
 	}

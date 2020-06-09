@@ -10,16 +10,16 @@
     color: white;
     height: 45vh;
 
- 
-
     >h1 {
         color: $pink;
         font-size: 3.5em;
         padding-top: 80px;
-        @include md{
+
+        @include md {
             font-size: 6em;
         }
-        @include lg{
+
+        @include lg {
             padding-top: 120px;
         }
     }
@@ -28,7 +28,8 @@
         font-family: 'Playfair Display', serif;
         margin-top: -20px;
         padding-top: 20;
-        @include md{
+
+        @include md {
             font-size: 2.5em;
             margin-top: -30px;
         }
@@ -38,18 +39,24 @@
         font-size: .9em;
         font-weight: 100;
         padding-top: 15px;
-        @include md{
+
+        @include md {
             font-size: 1.7em;
         }
     }
 
-    @include md{
-        height: 54vh;
+    @include md {
         background-position: 0px 190px;
+        height: 54vh;
     }
 
-    @include lg{
-        height: 70vh;
+    @include lg {
         background-position: 0px 210px;
-     }
+        height: 70vh;
+    }
+
+    @include xl {
+        background-position: 0px 110px;
+        height: 95vh;
+    }
 }

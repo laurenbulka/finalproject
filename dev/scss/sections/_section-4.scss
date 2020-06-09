@@ -13,13 +13,18 @@
         position: relative;
 
         @include md {
-            background-size: cover;
             height: 40vh;
         }
 
         @include lg {
-            background-size: cover;
             height: 50vh;
+            padding-bottom: 60px;
+        }
+
+        @include xl {
+            background-position: center;
+            height: 60vh;
+            padding-bottom: 60px;
         }
     }
 

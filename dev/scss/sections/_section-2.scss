@@ -1,24 +1,29 @@
 /* =============
     Section 2
 ============= */
-#section-2{
-    display: grid;
-    grid-template-areas: ". section-2 .";
-    padding: 20px 30px ;
+#section-2 {
     border-top: solid;
     border-color: $pink;
     border-width: 40px;
-    
-    @include md{
-        font-size: 1.75em;
-        padding: 60px 60px;
-        line-height: 1.2em;
+    padding: 20px 30px;
+
+    >p {
+        text-align: center;
     }
 
-    @include lg{
+    @include md {
         font-size: 1.75em;
-        padding: 40px 80px;
-        line-height: 1.4em;
+        line-height: 1.2em;
+        padding: 60px 60px;
     }
-   
+
+    @include lg {
+        font-size: 1.75em;
+        line-height: 1.4em;
+        padding: 40px 80px;
+    }
+
+    @include xl {
+        padding: 60px 220px;
+    }
 }

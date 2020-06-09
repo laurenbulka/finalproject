@@ -3,10 +3,9 @@
 ============= */
 #section-3 {
     border-bottom: solid;
-    border-color: $pink;
     border-top: solid;
-    border-width: 15px;
     border-color: $pink;
+    border-width: 15px;
 
     #section-3-content {
         padding-top: 40px;
@@ -16,6 +15,13 @@
             grid-template-areas: "section-3-img section-3-right";
             grid-template-columns: 55% auto;
             padding: 40px 20px;
+        }
+
+        @include xl {
+            display: grid;
+            grid-template-areas: "section-3-img section-3-right";
+            grid-template-columns: 45% auto;
+            padding: 80px 20px;
         }
     }
 
@@ -29,12 +35,18 @@
         padding: 30px 30px 0px 30px;
 
         @include md {
-            clip-path: circle(235px at center);
+            clip-path: circle(210px at center);
+            padding: 40px 60px;
         }
 
         @include lg {
+            clip-path: circle(245px at center);
+            padding: 80px;
+        }
+
+        @include xl {
             clip-path: circle(255px at center);
-            padding: 60px;
+            padding: 100px 120px;
         }
     }
 
@@ -50,36 +62,51 @@
 
             @include md {
                 font-size: 1.2em;
-                padding: 0px 50px 5px 40px;
+                padding: 0px 30px 5px 20px;
             }
-
 
             @include lg {
                 font-size: 1.2em;
-                padding: 0px 30px 5px 20px;
                 line-height: 2.3em;
+                padding: 0px 30px 5px 20px;
+            }
+
+            @include xl {
+                font-size: 1.5em;
+                line-height: 2.3em;
+                padding: 0px 100px 5px 30px;
             }
         }
 
         #qtop {
             margin: 20px 0px 10px 10px;
+
             @include md {
-                margin: 70px 0px 0px 30px; 
+                margin: 70px 0px 0px 20px;
             }
 
             @include lg {
-                margin: 120px 0px 0px -20px; 
+                margin: 100px 0px 0px -20px;
+            }
+
+            @include xl {
+                margin: 70px 0px 0px 0px;
             }
         }
 
         #qbottom {
             margin: 20px 30px 20px 360px;
+
             @include md {
-                margin: 0px 0px 0px 330px;
+                margin: 0px 0px 0px 300px;
             }
 
             @include lg {
-                margin: 0px 0px 0px 390px; 
+                margin: 0px 0px 0px 390px;
+            }
+
+            @include xl {
+                margin: 0px 0px 0px 480px;
             }
         }
     }

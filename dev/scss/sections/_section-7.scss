@@ -7,44 +7,59 @@
     margin-top: 10px;
     padding-bottom: 180px;
     position: relative;
+    text-align: justify;
 
     @include md {
         grid-template-columns: 20% auto;
-        padding-bottom: 550px;
+        padding-bottom: 350px;
     }
 
     @include lg {
         grid-template-columns: 20% auto;
-        padding-bottom: 420px;
+        padding-bottom: 120px;
     }
 
-    aside{
-            
+    @include xl {
+        grid-template-columns: 20% auto;
+        padding: 30px 30px 80px;
+    }
+
+    aside {
         @include md {
-            font-size: 2em;
-            padding-top: 60px;
+            font-size: 1.8em;
             padding-left: 10px;
+            padding-top: 60px;
         }
-        
-        section{
+
+        section {
             h1 {
                 color: black;
                 font-size: 3em;
-                top: 0;
                 left: 0;
-                z-index: 1000;
-                writing-mode: vertical-rl;
-                text-orientation: mixed;
-                padding-top: 70px;
                 padding-left: 10px;
-                
+                padding-top: 70px;
+                text-orientation: mixed;
+                top: 0;
+                writing-mode: vertical-rl;
+                z-index: 1000;
+
                 @include md {
-                    font-size: 4.5em;  
+                    font-size: 4.5em;
+                }
+
+                @include lg {
+                    font-size: 4em;
+                    padding-left: 40px;
+                    padding-top: 40px;
+                }
+
+                @include xl {
+                    padding-left: 80px;
+                    padding-top: 0px;
                 }
             }
         }
     }
-
 
     #section-7-text {
         background-color: $pink;
@@ -54,27 +69,33 @@
         padding: 20px 30px 130px;
         padding-bottom: 130px;
 
-
         >p {
             padding-bottom: 10px;
             text-align: left;
+
             @include md {
                 padding-bottom: 30px;
             }
         }
 
         @include md {
-            font-size: 2.2em;
-            padding: 40px 60px 430px 50px;
+            font-size: 2em;
+            padding: 40px 60px 230px 50px;
         }
 
         @include lg {
-            font-size: 2.2em;
-            padding: 60px 60px 300px 50px;
+            font-size: 1.7em;
+            margin-left: 20px;
+            margin-right: 80px;
+            padding: 60px 60px 370px 50px;
         }
 
-
-
+        @include xl {
+            font-size: 1.5em;
+            margin-left: 20px;
+            margin-right: 80px;
+            padding: 60px 60px 500px 60px;
+        }
     }
 
     img {
@@ -84,15 +105,21 @@
         width: 250px;
 
         @include md {
-            bottom: 260px;
+            bottom: 60px;
             margin-left: 220px;
-            width: 650px;
+            width: 550px;
         }
 
         @include lg {
             bottom: 140px;
-            margin-left: 280px;
-            width: 650px;
+            margin-left: 320px;
+            width: 500px;
+        }
+
+        @include xl {
+            bottom: 100px;
+            margin-left: 350px;
+            width: 500px;
         }
     }
 }
