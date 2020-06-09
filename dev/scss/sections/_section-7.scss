@@ -84,10 +84,10 @@
         }
 
         @include lg {
-            font-size: 1.7em;
+            font-size: 1.8em;
             margin-left: 20px;
             margin-right: 80px;
-            padding: 60px 60px 260px 50px;
+            padding: 60px 60px 200px 50px;
         }
 
         @include xl {
@@ -112,8 +112,8 @@
 
         @include lg {
             bottom: 80px;
-            margin-left: 310px;
-            width: 500px;
+            margin-left: 280px;
+            width: 560px;
         }
 
         @include xl {
