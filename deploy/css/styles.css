@@ -549,12 +549,12 @@ footer {
       height: 54vh; } }
   @media (min-width: 992px) {
     #section-1 {
-      background-position: 0px 190px;
-      height: 65vh; } }
+      background-position: 0px 150px;
+      height: 80vh; } }
   @media (min-width: 1200px) {
     #section-1 {
       background-position: 0px 110px;
-      height: 95vh; } }
+      height: 85vh; } }
 /* =============
     Section 2
 ============= */
@@ -728,7 +728,7 @@ footer {
     #section-5 {
       background-position: bottom;
       background-size: 30%;
-      padding: 260px 40px 40px; } }
+      padding: 280px 40px 20px; } }
   #section-5 p {
     font-weight: 100;
     padding: 10px;
