@@ -40,7 +40,7 @@
         }
 
         @include lg {
-            clip-path: circle(245px at center);
+            clip-path: circle(230px at center);
             padding: 80px;
         }
 
@@ -86,7 +86,7 @@
             }
 
             @include lg {
-                margin: 100px 0px 0px -20px;
+                margin: 70px 0px 0px -20px;
             }
 
             @include xl {

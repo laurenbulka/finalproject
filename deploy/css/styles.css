@@ -549,8 +549,8 @@ footer {
       height: 54vh; } }
   @media (min-width: 992px) {
     #section-1 {
-      background-position: 0px 210px;
-      height: 70vh; } }
+      background-position: 0px 190px;
+      height: 80vh; } }
   @media (min-width: 1200px) {
     #section-1 {
       background-position: 0px 110px;
@@ -574,7 +574,7 @@ footer {
     #section-2 {
       font-size: 1.75em;
       line-height: 1.4em;
-      padding: 40px 80px; } }
+      padding: 40px 100px; } }
   @media (min-width: 1200px) {
     #section-2 {
       padding: 60px 220px; } }
@@ -614,7 +614,7 @@ footer {
         padding: 40px 60px; } }
     @media (min-width: 992px) {
       #section-3 #section-3-img {
-        clip-path: circle(245px at center);
+        clip-path: circle(230px at center);
         padding: 80px; } }
     @media (min-width: 1200px) {
       #section-3 #section-3-img {
@@ -647,7 +647,7 @@ footer {
         margin: 70px 0px 0px 20px; } }
     @media (min-width: 992px) {
       #section-3 #section-3-right #qtop {
-        margin: 100px 0px 0px -20px; } }
+        margin: 70px 0px 0px -20px; } }
     @media (min-width: 1200px) {
       #section-3 #section-3-right #qtop {
         margin: 70px 0px 0px 0px; } }
@@ -723,7 +723,7 @@ footer {
     #section-5 {
       background-position: bottom;
       background-size: 50%;
-      padding: 240px 40px 40px; } }
+      padding: 260px 40px 100px; } }
   @media (min-width: 1200px) {
     #section-5 {
       background-position: bottom;
@@ -740,7 +740,7 @@ footer {
     @media (min-width: 992px) {
       #section-5 p {
         font-size: 1.4em;
-        padding: 0px 80px 0px; } }
+        padding: 0px 80px 20px; } }
     @media (min-width: 1200px) {
       #section-5 p {
         font-size: 1.4em;
@@ -760,7 +760,7 @@ footer {
   @media (min-width: 992px) {
     #section-6 {
       grid-template-columns: 50% auto;
-      margin-top: 140px; } }
+      margin-top: 60px; } }
   #section-6 #section-6-h {
     color: #F1607A;
     font-size: 1.3em;
@@ -843,8 +843,8 @@ footer {
       padding-bottom: 350px; } }
   @media (min-width: 992px) {
     #section-7 {
-      grid-template-columns: 20% auto;
-      padding-bottom: 120px; } }
+      grid-template-columns: 17% auto;
+      padding-bottom: 240px; } }
   @media (min-width: 1200px) {
     #section-7 {
       grid-template-columns: 20% auto;
@@ -898,7 +898,7 @@ footer {
         font-size: 1.7em;
         margin-left: 20px;
         margin-right: 80px;
-        padding: 60px 60px 370px 50px; } }
+        padding: 60px 60px 260px 50px; } }
     @media (min-width: 1200px) {
       #section-7 #section-7-text {
         font-size: 1.5em;
@@ -917,8 +917,8 @@ footer {
         width: 550px; } }
     @media (min-width: 992px) {
       #section-7 img {
-        bottom: 140px;
-        margin-left: 320px;
+        bottom: 80px;
+        margin-left: 310px;
         width: 500px; } }
     @media (min-width: 1200px) {
       #section-7 img {
@@ -995,7 +995,7 @@ footer {
       padding: 40px; } }
   @media (min-width: 992px) {
     #section-9 {
-      padding: 40px 260px; } }
+      padding: 40px 140px; } }
   #section-9 #section-9-content {
     display: grid;
     gap: 20px;
@@ -1056,7 +1056,7 @@ footer {
             margin-top: 240px; } }
         @media (min-width: 992px) {
           #section-9 #section-9-content #section-9-2 > h4 {
-            margin-top: 250px; } }
+            margin-top: 240px; } }
       #section-9 #section-9-content #section-9-2 #section-9-2-2 {
         font-weight: 100; }
         #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
@@ -1119,7 +1119,7 @@ footer {
             margin-top: 240px; } }
         @media (min-width: 992px) {
           #section-9 #section-9-content #section-9-4 > h4 {
-            margin-top: 250px; } }
+            margin-top: 240px; } }
       #section-9 #section-9-content #section-9-4 #section-9-4-2 {
         font-weight: 100;
         margin-top: 0px; }

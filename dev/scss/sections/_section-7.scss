@@ -15,8 +15,8 @@
     }
 
     @include lg {
-        grid-template-columns: 20% auto;
-        padding-bottom: 120px;
+        grid-template-columns: 17% auto;
+        padding-bottom: 240px;
     }
 
     @include xl {
@@ -87,7 +87,7 @@
             font-size: 1.7em;
             margin-left: 20px;
             margin-right: 80px;
-            padding: 60px 60px 370px 50px;
+            padding: 60px 60px 260px 50px;
         }
 
         @include xl {
@@ -111,8 +111,8 @@
         }
 
         @include lg {
-            bottom: 140px;
-            margin-left: 320px;
+            bottom: 80px;
+            margin-left: 310px;
             width: 500px;
         }
 
