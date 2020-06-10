@@ -583,6 +583,7 @@ footer {
 ============= */
 #section-3 {
   border-bottom: solid;
+  border-color: #F1607A;
   border-top: solid;
   border-color: #F1607A;
   border-width: 15px; }
@@ -801,10 +802,6 @@ footer {
         margin-top: 100px; } }
     @media (min-width: 992px) {
       #section-6 #section-6-h {
-        font-size: 3.5em;
-        margin-top: 20px; } }
-    @media (min-width: 992px) {
-      #section-6 #section-6-h {
         font-size: 3.8em;
         margin-top: 0px; } }
   #section-6 #section-6-text {
@@ -937,9 +934,9 @@ footer {
     @media (min-width: 1200px) {
       #section-7 #section-7-text {
         font-size: 1.5em;
+        margin-bottom: 180px;
         margin-left: 20px;
         margin-right: 80px;
-        margin-bottom: 180px;
         padding: 60px 60px 40px 60px; } }
   #section-7 img {
     bottom: 60px;
@@ -952,16 +949,16 @@ footer {
         width: 550px; } }
     @media (min-width: 992px) {
       #section-7 img {
-        width: 540px;
         bottom: -40px;
         justify-content: center;
-        padding-left: 40px; } }
+        padding-left: 40px;
+        width: 540px; } }
     @media (min-width: 1200px) {
       #section-7 img {
+        bottom: -60px;
         justify-content: center;
-        width: 540px;
         padding-left: 15%;
-        bottom: -60px; } }
+        width: 540px; } }
 /* =============
     Section 8
 ============= */
@@ -977,12 +974,12 @@ footer {
       height: 80vh; } }
   @media (min-width: 992px) {
     #section-8 {
-      margin-top: 100px;
-      height: 85vh; } }
+      height: 85vh;
+      margin-top: 100px; } }
   @media (min-width: 1200px) {
     #section-8 {
-      margin-top: 100px;
-      height: 90vh; } }
+      height: 90vh;
+      margin-top: 100px; } }
   #section-8 > h1 {
     font-size: 2.2em;
     padding-bottom: 10px;

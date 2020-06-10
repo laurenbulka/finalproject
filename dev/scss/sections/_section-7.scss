@@ -93,9 +93,9 @@
 
         @include xl {
             font-size: 1.5em;
+            margin-bottom: 180px;
             margin-left: 20px;
             margin-right: 80px;
-            margin-bottom: 180px;
             padding: 60px 60px 40px 60px;
         }
     }
@@ -112,18 +112,17 @@
         }
 
         @include lg {
-            width: 540px;
             bottom: -40px;
             justify-content: center;
             padding-left: 40px;
+            width: 540px;
         }
 
         @include xl {
-            justify-content: center;
-            width: 540px;
-            padding-left: 15%;
             bottom: -60px;
-           
+            justify-content: center;
+            padding-left: 15%;
+            width: 540px;
         }
     }
 }
