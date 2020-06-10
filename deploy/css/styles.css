@@ -553,8 +553,8 @@ footer {
       height: 80vh; } }
   @media (min-width: 1200px) {
     #section-1 {
-      background-position: 0px 110px;
-      height: 85vh; } }
+      background-position: 0px 140px;
+      height: 95vh; } }
 /* =============
     Section 2
 ============= */
@@ -647,10 +647,10 @@ footer {
         margin: 70px 0px 0px 20px; } }
     @media (min-width: 992px) {
       #section-3 #section-3-right #qtop {
-        margin: 120px 0px 0px -20px; } }
+        margin: 100px 0px 0px -20px; } }
     @media (min-width: 1200px) {
       #section-3 #section-3-right #qtop {
-        margin: 70px 0px 0px 0px; } }
+        margin: 120px 0px 0px 0px; } }
   #section-3 #section-3-right #qbottom {
     margin: 20px 30px 20px 360px; }
     @media (min-width: 768px) {
@@ -661,7 +661,7 @@ footer {
         margin: 0px 0px 0px 390px; } }
     @media (min-width: 1200px) {
       #section-3 #section-3-right #qbottom {
-        margin: 0px 0px 0px 480px; } }
+        margin: 0px 0px 0px 700px; } }
 /* =============
     Section 4
 ============= */
@@ -704,35 +704,55 @@ footer {
         #section-4 .layer h1 {
           font-size: 4em;
           margin-bottom: -30px; } }
+      @media (min-width: 1200px) {
+        #section-4 .layer h1 {
+          font-size: 4em;
+          margin-bottom: -40px; } }
 /* =============
     Section 5
 ============= */
 #section-5 {
-  background-image: url(../img/headphones.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  display: grid;
-  height: 40vh;
-  padding: 20px 20px 70px 20px; }
+  padding-top: 20px; }
   @media (min-width: 768px) {
     #section-5 {
       background-size: 60%;
-      padding: 60px 20px 200px; } }
+      padding: 60px 0px 40px; } }
   @media (min-width: 992px) {
     #section-5 {
-      background-position: bottom;
-      background-size: 50%;
-      padding: 280px 40px 0px; } }
+      background-size: 30%;
+      justify-content: center;
+      padding: 160px 0px 0px; } }
   @media (min-width: 1200px) {
     #section-5 {
-      background-position: bottom;
-      background-size: 30%;
-      padding: 280px 40px 20px; } }
+      padding: 240px 0px 60px; } }
+  #section-5 #bg {
+    background-image: url(../img/headphones.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 60vh;
+    justify-content: center;
+    margin-top: -60px;
+    position: absolute;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #section-5 #bg {
+        background-size: 50%;
+        padding: 0; } }
+    @media (min-width: 992px) {
+      #section-5 #bg {
+        background-size: 400px;
+        justify-content: center; } }
+    @media (min-width: 1200px) {
+      #section-5 #bg {
+        background-size: 450px;
+        justify-content: center;
+        padding-top: 100px; } }
   #section-5 p {
     font-weight: 100;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    z-index: 1000; }
     @media (min-width: 768px) {
       #section-5 p {
         font-size: 1.75em;
@@ -740,12 +760,18 @@ footer {
     @media (min-width: 992px) {
       #section-5 p {
         font-size: 1.4em;
-        padding: 0px 80px 40px; } }
+        padding: 0px 200px 40px; } }
     @media (min-width: 1200px) {
       #section-5 p {
         font-size: 1.4em;
-        padding: 0px 160px 0px;
-        padding-bottom: 10px; } }
+        margin-top: 30px;
+        padding: 0px 200px 0px; } }
+  @media (min-width: 992px) {
+    #section-5 #text-5 {
+      margin-top: 20px; } }
+  @media (min-width: 1200px) {
+    #section-5 #text-5 {
+      margin-top: 80px; } }
 /* =============
     Section 6
 ============= */
@@ -761,6 +787,10 @@ footer {
     #section-6 {
       grid-template-columns: 50% auto;
       margin-top: 80px; } }
+  @media (min-width: 1200px) {
+    #section-6 {
+      grid-template-columns: 50% auto;
+      margin-top: 100px; } }
   #section-6 #section-6-h {
     color: #F1607A;
     font-size: 1.3em;
@@ -768,15 +798,15 @@ footer {
     @media (min-width: 768px) {
       #section-6 #section-6-h {
         font-size: 2.7em;
-        margin-top: 80px; } }
+        margin-top: 100px; } }
     @media (min-width: 992px) {
       #section-6 #section-6-h {
         font-size: 3.5em;
-        margin-top: -20px; } }
+        margin-top: 20px; } }
     @media (min-width: 992px) {
       #section-6 #section-6-h {
         font-size: 3.8em;
-        margin-top: -20px; } }
+        margin-top: 0px; } }
   #section-6 #section-6-text {
     background-color: #F1607A;
     color: white;
@@ -852,7 +882,7 @@ footer {
   @media (min-width: 1200px) {
     #section-7 {
       grid-template-columns: 20% auto;
-      padding: 30px 20px 80px; } }
+      padding: 30px 0px 80px; } }
   @media (min-width: 768px) {
     #section-7 aside {
       font-size: 1.8em;
@@ -873,11 +903,12 @@ footer {
         font-size: 4.5em; } }
     @media (min-width: 992px) {
       #section-7 aside section h1 {
-        font-size: 4em;
+        font-size: 3em;
         padding-left: 40px;
         padding-top: 40px; } }
     @media (min-width: 1200px) {
       #section-7 aside section h1 {
+        font-size: 3em;
         padding-left: 100px;
         padding-top: 0px; } }
   #section-7 #section-7-text {
@@ -901,34 +932,36 @@ footer {
       #section-7 #section-7-text {
         font-size: 1.8em;
         margin-left: 20px;
-        margin-right: 80px;
+        margin-right: 60px;
         padding: 60px 60px 200px 50px; } }
     @media (min-width: 1200px) {
       #section-7 #section-7-text {
         font-size: 1.5em;
         margin-left: 20px;
         margin-right: 80px;
-        padding: 60px 60px 500px 60px; } }
+        margin-bottom: 180px;
+        padding: 60px 60px 40px 60px; } }
   #section-7 img {
     bottom: 60px;
-    margin-left: 110px;
+    justify-content: center;
     position: absolute;
     width: 250px; }
     @media (min-width: 768px) {
       #section-7 img {
-        bottom: 60px;
-        margin-left: 220px;
+        justify-content: center;
         width: 550px; } }
     @media (min-width: 992px) {
       #section-7 img {
-        bottom: 80px;
-        margin-left: 280px;
-        width: 560px; } }
+        width: 540px;
+        bottom: -40px;
+        justify-content: center;
+        padding-left: 40px; } }
     @media (min-width: 1200px) {
       #section-7 img {
-        bottom: 100px;
-        margin-left: 420px;
-        width: 500px; } }
+        justify-content: center;
+        width: 540px;
+        padding-left: 15%;
+        bottom: -60px; } }
 /* =============
     Section 8
 ============= */
@@ -941,13 +974,15 @@ footer {
   padding: 30px; }
   @media (min-width: 768px) {
     #section-8 {
-      height: 100vh; } }
+      height: 80vh; } }
   @media (min-width: 992px) {
     #section-8 {
-      height: 80vh; } }
+      margin-top: 100px;
+      height: 85vh; } }
   @media (min-width: 1200px) {
     #section-8 {
-      height: 100vh; } }
+      margin-top: 100px;
+      height: 90vh; } }
   #section-8 > h1 {
     font-size: 2.2em;
     padding-bottom: 10px;
@@ -973,14 +1008,14 @@ footer {
       text-align: left; }
     @media (min-width: 768px) {
       #section-8 #section-8-text {
-        font-size: 1.7em;
+        font-size: 1.4em;
         margin: 20px;
-        padding: 40px 50px; } }
+        padding: 20px 50px 10px; } }
     @media (min-width: 992px) {
       #section-8 #section-8-text {
         font-size: 1.4em;
         margin: 20px 60px 0px;
-        padding: 40px 60px; } }
+        padding: 40px 60px 0px; } }
     @media (min-width: 1200px) {
       #section-8 #section-8-text {
         font-size: 1.4em;
@@ -1013,9 +1048,9 @@ footer {
     padding-top: 20px; }
     @media (min-width: 768px) {
       #section-9 #section-9-content {
-        gap: 20px;
+        gap: 40px;
         grid-template-columns: 22% 22% 22% 22%;
-        margin-left: 20px; } }
+        margin-right: 30px; } }
     #section-9 #section-9-content #section-9-1 {
       background-color: #F1607A;
       background-image: url(../img/train.svg);
@@ -1025,6 +1060,9 @@ footer {
       height: 90px;
       margin-left: 5px;
       padding: 20px 0px 20px 0px; }
+      @media (min-width: 1200px) {
+        #section-9 #section-9-content #section-9-1 {
+          background-size: 130px; } }
       #section-9 #section-9-content #section-9-1 > h4 {
         color: white;
         font-size: .8em;
@@ -1053,6 +1091,9 @@ footer {
       height: 90px;
       margin-top: 100px;
       padding: 20px 0px 20px 0px; }
+      @media (min-width: 1200px) {
+        #section-9 #section-9-content #section-9-2 {
+          background-size: 130px; } }
       #section-9 #section-9-content #section-9-2 > h4 {
         color: white;
         font-size: .75em;
@@ -1064,6 +1105,9 @@ footer {
         @media (min-width: 992px) {
           #section-9 #section-9-content #section-9-2 > h4 {
             margin-top: 240px; } }
+        @media (min-width: 1200px) {
+          #section-9 #section-9-content #section-9-2 > h4 {
+            margin-top: 260px; } }
       #section-9 #section-9-content #section-9-2 #section-9-2-2 {
         font-weight: 100; }
         #section-9 #section-9-content #section-9-2 #section-9-2-2 > h6 {
@@ -1086,6 +1130,9 @@ footer {
       background-size: 80%;
       height: 90px;
       padding: 20px 0px 20px 0px; }
+      @media (min-width: 1200px) {
+        #section-9 #section-9-content #section-9-3 {
+          background-size: 130px; } }
       #section-9 #section-9-content #section-9-3 > h4 {
         color: white;
         font-size: .8em;
@@ -1116,6 +1163,9 @@ footer {
       height: 100px;
       margin-top: 100px;
       padding: 20px 0px 20px 0px; }
+      @media (min-width: 1200px) {
+        #section-9 #section-9-content #section-9-4 {
+          background-size: 130px; } }
       #section-9 #section-9-content #section-9-4 > h4 {
         color: white;
         font-size: .8em;
@@ -1126,7 +1176,10 @@ footer {
             margin-top: 240px; } }
         @media (min-width: 992px) {
           #section-9 #section-9-content #section-9-4 > h4 {
-            margin-top: 240px; } }
+            margin-top: 250px; } }
+        @media (min-width: 1200px) {
+          #section-9 #section-9-content #section-9-4 > h4 {
+            margin-top: 260px; } }
       #section-9 #section-9-content #section-9-4 #section-9-4-2 {
         font-weight: 100;
         margin-top: 0px; }
@@ -1138,7 +1191,10 @@ footer {
           @media (min-width: 768px) {
             #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
               font-size: .75em;
-              margin-top: -195px; } }
+              margin-top: -175px; } }
+          @media (min-width: 1200px) {
+            #section-9 #section-9-content #section-9-4 #section-9-4-2 > h6 {
+              margin-top: -175px; } }
       @media (min-width: 768px) {
         #section-9 #section-9-content #section-9-4 {
           font-size: 1em;

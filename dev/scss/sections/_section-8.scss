@@ -10,15 +10,17 @@
     padding: 30px;
 
     @include md {
-        height: 100vh;
-    }
-
-    @include lg {
         height: 80vh;
     }
 
+    @include lg {
+        margin-top: 100px;
+        height: 85vh;
+    }
+
     @include xl {
-        height: 100vh;
+        margin-top: 100px;
+        height: 90vh;
     }
 
     >h1 {
@@ -54,15 +56,15 @@
         }
 
         @include md {
-            font-size: 1.7em;
+            font-size: 1.4em;
             margin: 20px;
-            padding: 40px 50px;
+            padding: 20px 50px 10px;
         }
 
         @include lg {
             font-size: 1.4em;
             margin: 20px 60px 0px;
-            padding: 40px 60px;
+            padding: 40px 60px 0px;
         }
 
         @include xl {

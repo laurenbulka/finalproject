@@ -86,11 +86,11 @@
             }
 
             @include lg {
-                margin: 120px 0px 0px -20px;
+                margin: 100px 0px 0px -20px;
             }
 
             @include xl {
-                margin: 70px 0px 0px 0px;
+                margin: 120px 0px 0px 0px;
             }
         }
 
@@ -106,7 +106,7 @@
             }
 
             @include xl {
-                margin: 0px 0px 0px 480px;
+                margin: 0px 0px 0px 700px;
             }
         }
     }

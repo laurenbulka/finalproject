@@ -21,7 +21,7 @@
 
     @include xl {
         grid-template-columns: 20% auto;
-        padding: 30px 20px 80px;
+        padding: 30px 0px 80px;
     }
 
     aside {
@@ -48,12 +48,13 @@
                 }
 
                 @include lg {
-                    font-size: 4em;
+                    font-size: 3em;
                     padding-left: 40px;
                     padding-top: 40px;
                 }
 
                 @include xl {
+                    font-size: 3em;
                     padding-left: 100px;
                     padding-top: 0px;
                 }
@@ -86,7 +87,7 @@
         @include lg {
             font-size: 1.8em;
             margin-left: 20px;
-            margin-right: 80px;
+            margin-right: 60px;
             padding: 60px 60px 200px 50px;
         }
 
@@ -94,32 +95,35 @@
             font-size: 1.5em;
             margin-left: 20px;
             margin-right: 80px;
-            padding: 60px 60px 500px 60px;
+            margin-bottom: 180px;
+            padding: 60px 60px 40px 60px;
         }
     }
 
     img {
         bottom: 60px;
-        margin-left: 110px;
+        justify-content: center;
         position: absolute;
         width: 250px;
 
         @include md {
-            bottom: 60px;
-            margin-left: 220px;
+            justify-content: center;
             width: 550px;
         }
 
         @include lg {
-            bottom: 80px;
-            margin-left: 280px;
-            width: 560px;
+            width: 540px;
+            bottom: -40px;
+            justify-content: center;
+            padding-left: 40px;
         }
 
         @include xl {
-            bottom: 100px;
-            margin-left: 420px;
-            width: 500px;
+            justify-content: center;
+            width: 540px;
+            padding-left: 15%;
+            bottom: -60px;
+           
         }
     }
 }
