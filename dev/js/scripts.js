@@ -1,19 +1,7 @@
-var $burger = $("#burger-icon"),
-    $nav = $("nav[data-nav]"),
-    $navA = $("nav[data-nav] a"),
-    isVisible = !1;
+import {gsap} from "gsap";
 
-    function mouseClick(){
+import {section1Animation} from "./sections/section1.js";
+import {section2Animation} from "./sections/section2.js";
 
-        console.log("click");
-        if(isVisible === false){
-            $nav.show();
-            isVisible = true;
-        }
-        else{
-            $nav.hide();
-            isVisible = false;
-        }
-    }
-
-$burger.on("click", mouseClick), $navA.on("click", mouseClick);
+section1Animation();
+section2Animation();

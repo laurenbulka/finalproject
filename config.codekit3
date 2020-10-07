@@ -50,6 +50,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/ferriswheel.jpeg": {
+		"ft": 16384,
+		"iS": 517216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/ferriswheel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/ferriswheel.jpg": {
 		"ft": 16384,
 		"iS": 332761,
@@ -185,12 +196,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/BulkaLIndependent copy.sketch": {
+	"/design/BulkaLIndependent.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/BulkaLIndependent copy.sketch",
+		"oAP": "/design/BulkaLIndependent.sketch",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
@@ -217,14 +228,58 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/scripts.js": {
+	"/dev/js/animationSpeeds.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
+		"oAP": "/dev/js/animationSpeeds-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section1.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section3-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section3-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section3.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section3-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -559,6 +614,45 @@
 		"oA": 1,
 		"oAP": "/dev/section-9.html",
 		"oF": 1
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/README.md": {
 		"cB": 0,
