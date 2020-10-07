@@ -239,46 +239,145 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/sections/section1.js": {
-		"bF": 0,
+	"/dev/js/scripts.js": {
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section1.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
 		"oAP": "/dev/js/sections/section1-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
 	"/dev/js/sections/section2.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/sections/section2-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/sections/section3-min.js": {
+	"/dev/js/sections/section3.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section3-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section4-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/sections/section3-min-min.js",
+		"oAP": "/dev/js/sections/section4-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/sections/section3.js": {
+	"/dev/js/sections/section4.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section4-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section5-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/sections/section3-min.js",
+		"oAP": "/dev/js/sections/section5-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section5.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section5-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section6-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section6-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section6.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section6-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section7.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section7-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section8.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section8-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section9.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section9-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

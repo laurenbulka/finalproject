@@ -5,18 +5,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section3TL = gsap.timeline();
 
-section2TL.from("#section-3-first img", {duration: 0.5, alpha:0, rotation:270})
-    .from("#section-3-first h1", {duration: 0.5, alpha:0, x: -300})
-    .from("#section-3-first h4", {duration: 0.5, alpha:0})
-    .from("#section-3-middle", {duration: 0.5, alpha:0})
-    .from("#section-3-last", {duration: 0.5, alpha:0});
-
-
+section3TL.from("#section-3-img", {duration: 0.5, alpha:0, rotation:180})
+    .from("#section-3-right", {duration: 0.5, alpha:0, x: -300})
 
 export function section3Animation(){
     ScrollTrigger.create({
-        markers: true,
-        animation:section2TL,
+        animation:section3TL,
         toggleActions: "play none none none",
         trigger: "#section-3",
         start:"top, 25%",
