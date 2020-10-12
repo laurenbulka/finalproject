@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section7TL = gsap.timeline();
 
-section7TL.from("#section-7 h1", {duration: 0.5, alpha:0, y:-300})
+section7TL.from("#section-7 h1", {duration: 0.75, alpha:0, y:-300})
     .from("#section-7-text", {duration: 0.5, alpha:0})
 
 export function section7Animation(){

@@ -1,1 +1,0 @@
-import{gsap}from"gsap";import{ScrollTrigger}from"gsap/ScrollTrigger";gsap.registerPlugin(ScrollTrigger);const section5TL=gsap.timeline();section5TL.from("#bg",{duration:.5,alpha:0,x:-300});export function section4Animation(){ScrollTrigger.create({animation:section4TL,toggleActions:"play none none none",trigger:"#section-5",start:"top, 15%",end:"bottom 75%"})}

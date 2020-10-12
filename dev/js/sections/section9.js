@@ -15,7 +15,7 @@ export function section9Animation(){
         animation:section9TL,
         toggleActions: "play none none none",
         trigger: "#section-9",
-        start:"top, 25%",
-        end: "bottom 50%"
+        start:"top, 55%",
+        end: "bottom 45%"
     });
 }
